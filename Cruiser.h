@@ -16,11 +16,7 @@ public:
     }
     virtual ~Cruiser();
 
-    virtual int GetHullPoints() override
-    {
-        int retVal = m_hull + m_race->GetHullPointMods();
-        return retVal;
-    }
+
 
     Cruiser() = delete;
 

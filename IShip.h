@@ -12,7 +12,11 @@ public:
 
     }
 
-	virtual int GetHullPoints() = 0;
+    virtual int GetHullPoints() 
+    {
+        int retVal = m_hull + m_race->GetHullPointMods();
+        return retVal;
+    }
 
     virtual ~IShip() {}
 

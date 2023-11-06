@@ -1,5 +1,7 @@
 #include "ShipFactory.h"
 
+#include "IRace.h"
+#include "IShip.h"
 
 #include "BattleShip.h"
 #include "Cruiser.h"
@@ -40,5 +42,5 @@ ShipFactory::ShipFactory()
 
  ShipFactory::~ShipFactory() 
 {
-
+	m_raceMap.clear();
 }

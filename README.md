@@ -20,7 +20,7 @@ Additionally, there will be several species of aliens.  Zerg, Human, and Protos.
 
 We want these species (races), to modify the ships.  For example one species, may be noted for really sturdy ships, but the the weapons don't hit as much (i.e. Tanks).  While others may have fewer hitpoints, but hit really hard (i.e. Glass Cannons).  And maybe the last one balanced one.
 
-We want Interface class for all the Ships and Species, so we can define what are the expected methdos.  This shoudl be an abstract class, preferablly a pure abstract class.
+We want Interface class for all the Ships and Species, so we can define what are the expected methods.  This should be an abstract class, preferablly a pure abstract class.
 
 We want to control how the ships are created.  And thus will have a ShipFactory class whose responsibility is create the Ships.
 
@@ -30,7 +30,7 @@ Want to use either Smart Pointers or RAII, no dumb pointers.
 
 Implement this in a way to use containment to avoid the issue of too many concrete classes.   I.e. A Battleship that is a Zerg species vs. ZergBattleShip.
 
-Make a executable that will allow one to have  two opposing fleets, and have them fight.  You can just hard code the fleets, don’ worry about adding complex UI\text system to setup the parties (unless you really want to, but that is not part to of the assignment).
+Make a executable that will allow one to have  two opposing fleets, and have them fight.  You can just hard code the fleets, don’t worry about adding complex UI\text system to setup the parties (unless you really want to, but that is not part to of the assignment).
 
 The requirements is not compete, as I did this on purpose.  You will need to make assumptions or decision points you had to make to implement this.  These will need to be documented in the lab report.   
 

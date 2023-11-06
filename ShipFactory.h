@@ -1,12 +1,13 @@
 #pragma once
 
 
-#include "IShip.h"
+
 #include <memory>
 #include <map>
 
 //fwd declaration
 class IRace;
+class IShip;
 
 class ShipFactory
 {
